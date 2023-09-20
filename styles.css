@@ -1,0 +1,23 @@
+/* center aligned element */
+.center {
+    text-align: center;
+}
+
+.reduced-bottom-margins {
+    margin-bottom: -20px;
+}
+
+/* website background setup */
+body {
+    background-color: #f1e8e6;
+    color: #4d3b8a;
+}
+
+/* adjustments just for the bandmembers pic */
+#bandmembers {
+    width: 80%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
