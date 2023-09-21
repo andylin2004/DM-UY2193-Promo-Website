@@ -21,3 +21,12 @@ body {
     margin-right: auto;
     display: block;
 }
+
+.italics {
+    font-style: italic;
+}
+
+/* images have this weird thing where they will not auto resize down if you throw them in a table, so this tag will do just that if you pair it with a img */
+.table-image {
+    width: 100%;
+}
