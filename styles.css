@@ -3,6 +3,7 @@
     text-align: center;
 }
 
+/* this is for any subtext, as the default bottom spacing is a bit much */
 .reduced-bottom-margins {
     margin-bottom: -20px;
 }
@@ -22,6 +23,7 @@ body {
     display: block;
 }
 
+/* style only to italicize whatever needs to be italicized */
 .italics {
     font-style: italic;
 }
@@ -31,16 +33,19 @@ body {
     width: 100%;
 }
 
+/* this will ensure that the table takes up only the width of the website and distribute the columns out evenly */
 table {
     width: 100%;
     table-layout: fixed;
 }
 
+/* this throws a padding into each cell of the table to make things look nicer and align all interior text to center */
 td {
     padding: 10px;
     text-align: center;
 }
 
+/* bumping up the header 1 size by a crazy amount */
 h1 {
     font-size: 100px;
 }
